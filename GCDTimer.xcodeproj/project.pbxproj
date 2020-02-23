@@ -16,6 +16,7 @@
 		A636DC5E2400CEC4007F6EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A636DC5D2400CEC4007F6EDD /* main.m */; };
 		A636DC682400CEC4007F6EDD /* GCDTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A636DC672400CEC4007F6EDD /* GCDTimerTests.m */; };
 		A636DC732400CEC5007F6EDD /* GCDTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A636DC722400CEC5007F6EDD /* GCDTimerUITests.m */; };
+		A636DC8524021907007F6EDD /* CustomGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A636DC8424021907007F6EDD /* CustomGCDTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A636DC6E2400CEC5007F6EDD /* GCDTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A636DC722400CEC5007F6EDD /* GCDTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerUITests.m; sourceTree = "<group>"; };
 		A636DC742400CEC5007F6EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A636DC8324021907007F6EDD /* CustomGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomGCDTimer.h; sourceTree = "<group>"; };
+		A636DC8424021907007F6EDD /* CustomGCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomGCDTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				A636DC592400CEC4007F6EDD /* LaunchScreen.storyboard */,
 				A636DC5C2400CEC4007F6EDD /* Info.plist */,
 				A636DC5D2400CEC4007F6EDD /* main.m */,
+				A636DC8324021907007F6EDD /* CustomGCDTimer.h */,
+				A636DC8424021907007F6EDD /* CustomGCDTimer.m */,
 			);
 			path = GCDTimer;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A636DC532400CEB7007F6EDD /* ViewController.m in Sources */,
+				A636DC8524021907007F6EDD /* CustomGCDTimer.m in Sources */,
 				A636DC4D2400CEB7007F6EDD /* AppDelegate.m in Sources */,
 				A636DC5E2400CEC4007F6EDD /* main.m in Sources */,
 				A636DC502400CEB7007F6EDD /* SceneDelegate.m in Sources */,
